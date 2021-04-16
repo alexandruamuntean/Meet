@@ -1,0 +1,14 @@
+{
+  "name": "meet-landing-page",
+  "version": "1.0.0",
+  "description": "A landing page for a group chatting app",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Alex Muntean",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

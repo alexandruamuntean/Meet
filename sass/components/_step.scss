@@ -1,0 +1,29 @@
+.step-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+
+.line {
+  width: 1px;
+  height: 10rem;
+  background-color: $color-grey-dark;
+  margin: 0 auto;
+}
+.step {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid $color-grey-dark;
+  border-radius: 50%;
+  background-color: $color-white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    margin-right: -0.3rem;
+  }
+}

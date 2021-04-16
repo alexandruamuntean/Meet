@@ -1,0 +1,25 @@
+.footer {
+  width: 100vw;
+  height: 30rem;
+  background-image: linear-gradient(
+      45deg,
+      $color-blue-overlay,
+      $color-blue-overlay
+    ),
+    url("../../img/desktop/image-footer.jpg");
+  background-position: top;
+  background-size: auto;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-content {
+    width: 100%;
+    max-width: 128rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}

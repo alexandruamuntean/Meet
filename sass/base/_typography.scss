@@ -1,0 +1,32 @@
+.heading {
+  font-family: "Roboto", sans-serif;
+  color: $color-purple-dark;
+  &-primary {
+    font-size: 6.5rem;
+    line-height: 5.5rem;
+  }
+  &-secondary {
+    font-size: 3rem;
+    &--light {
+      font-size: 3rem;
+      color: $color-white;
+    }
+  }
+  &-tertiary {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: $color-primary;
+  }
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  font-weight: 400;
+  &--dark {
+    color: $color-purple-light;
+  }
+  &--light {
+    color: $color-white;
+    font-size: 1.8rem;
+  }
+}
